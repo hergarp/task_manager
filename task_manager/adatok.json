@@ -1,0 +1,17 @@
+{"task":[
+    {
+        "targy": "3.feladat",
+        "leiras": "ez a 3. feladat leírása",
+        "datum": "2021-11-09",
+        "felelos":"Kis Mariska",
+        "statusz": "tesztelés"
+    },
+
+    {
+        "targy": "5.feladat",
+        "leiras": "ez az 5. feladat leírása ",
+        "datum": "2021-12-16",
+        "felelos":"Gipsz Jakab",
+        "statusz": "folyamatban"
+    }
+]}
