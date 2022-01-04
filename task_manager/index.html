@@ -7,7 +7,7 @@
         <title>Task_manager-Hergár Péter</title>
         <link rel="stylesheet" href="stilus.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
- 
+
         <script src="ajax.js"></script>
         <script src="task.js"></script>
         <script src="script.js"></script>
@@ -22,24 +22,42 @@
                 </ul>
             </nav>
             <article>
-                <section class="adatok"></section>
-                <div class="task">
-                    <h3 class=targy>"tárgy"</h3>
-                    
-                    <p class="leiras">
-                            sit amet consectetur adipisicing elit. Sit natus nobis, earum aperiam nesciunt incidunt vero omnis rerum necessitatibus, fugiat doloribus cum sequi animi consectetur soluta! Saepe eaque sunt aliquid? Dolorum magni inventore similique enim obcaecati eius
-                                                                                                fugit animi, accusantium cum excepturi deserunt amet.
-                        </p>
-                    
-                    <br>
-                    <span id="datum"></span><br>
-                    <span id="felelos"></span><br>
-                    <span id="statusz"></span><br>
-                  
-                    <input type="submit" value="Módosítás"><br>
 
-                    <input type="submit" value="Törlés">
-                </div>
+                <table class="adatok">
+                    <tr class="task">
+                        <td>Tárgy:</td>
+                        <td class="targy"></td>
+                    </tr>
+
+                    <tr class="task">
+                        <td>Leírás:</td>
+                        <td class="leiras"></td>
+                    </tr>
+                    <tr class="task"></tr>
+                    <br>
+                    <tr class="task">
+                        <td>Dátum:</td>
+                        <td id="datum"></td>
+                    </tr>
+                    <tr class="task">
+                        <td>Felelős:</td>
+                        <td id="felelos">Roppant felelős</td>
+                    </tr>
+                    <tr class="task">
+                        <td>Státusz:</td>
+                        <td id="statusz">hulye státusz</td>
+                    </tr>
+                    <tr class="task">
+                    <td>
+                        <button class="modosit">Módosít</button>
+                    </td>
+
+
+                    <td>
+                        <button class="torol">Töröl</button>
+                    </td>
+                </tr>
+                </table>
 
             </article>
         </main>
